@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CloudX x Hayek | Arquitetura de Receita</title>
+    <meta name="description" content="Business House Full Stack especializada em transformar empresas que faturam +R$30k/mês em máquinas de crescimento previsível." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Montserrat', 'sans-serif'],
+            },
+            colors: {
+              primary: {
+                DEFAULT: '#5f98f1',
+                dark: '#4a7bc8',
+                darker: '#3a5fa0',
+              },
+              bg: {
+                primary: '#0a0a0a',
+                secondary: '#121212',
+                tertiary: '#1e1e1e',
+              },
+              text: {
+                primary: '#ffffff',
+                secondary: '#e5e5e5',
+                muted: '#9ca3af',
+              },
+              accent: {
+                success: '#10b981',
+                warning: '#f59e0b',
+                error: '#ef4444',
+              }
+            },
+            letterSpacing: {
+              tightest: '-.075em',
+              tighter: '-.05em',
+              normal: '0',
+              wide: '.025em',
+              wider: '.05em',
+              widest: '.1em',
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #0a0a0a;
+        color: #ffffff;
+      }
+      /* Custom scrollbar - Minimalist */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #0a0a0a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
